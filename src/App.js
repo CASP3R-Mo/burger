@@ -4,12 +4,15 @@ import React, {
 
 import './App.css';
 import Layout from "./components/Layout//Layout";
+import BurgerBuilder from './container/BurgerBulder';
 class App extends Component {
   render() {
     return <div className = "App" >
       <Layout >
-        <p>test</p>
+ 
+        <BurgerBuilder/>
       </Layout>
+
 
     </div>;
   }
